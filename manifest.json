@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Password Manager",
+    "version": "1.0",
+    "description": "Gerenciador de Senhas Seguro.",
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "Gerenciador de Senhas"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+
+}
+  
